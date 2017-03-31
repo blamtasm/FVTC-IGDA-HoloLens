@@ -1,19 +1,32 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScorchedEarth.Plugins", "ScorchedEarth.Plugins.csproj", "{4AE4DEEF-0070-3EE0-4125-04A448E35E53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScorchedEarth", "ScorchedEarth.csproj", "{F804074C-240C-F1B4-311F-A1628071229C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScorchedEarth.Editor.Plugins", "ScorchedEarth.Editor.Plugins.csproj", "{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{4AE4DEEF-0070-3EE0-4125-04A448E35E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE4DEEF-0070-3EE0-4125-04A448E35E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE4DEEF-0070-3EE0-4125-04A448E35E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE4DEEF-0070-3EE0-4125-04A448E35E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F804074C-240C-F1B4-311F-A1628071229C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F804074C-240C-F1B4-311F-A1628071229C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F804074C-240C-F1B4-311F-A1628071229C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F804074C-240C-F1B4-311F-A1628071229C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
