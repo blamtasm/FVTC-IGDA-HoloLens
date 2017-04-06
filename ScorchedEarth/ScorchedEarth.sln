@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScorchedEarth", "ScorchedEa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScorchedEarth.Editor.Plugins", "ScorchedEarth.Editor.Plugins.csproj", "{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScorchedEarth.Editor", "ScorchedEarth.Editor.csproj", "{4A241056-25C8-A8C2-9768-898B365C1A41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEED3CB5-4EEC-F99C-5ACC-8A45CF3EE6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A241056-25C8-A8C2-9768-898B365C1A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A241056-25C8-A8C2-9768-898B365C1A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A241056-25C8-A8C2-9768-898B365C1A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A241056-25C8-A8C2-9768-898B365C1A41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
